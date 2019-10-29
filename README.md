@@ -16,18 +16,18 @@ This project create AWS auto scale with ubuntu image and configure nginx on it.
 	create an IAM user with AdministratorAccess. Download the key and access secret code
 
 -- you need to set AWS credentials
-	aws configure
+- aws configure
 
 -- this repository will open the services on us-west-2 region
 
 --  clone the respository to your local
-	git clone https://github.com/Kenot-Solutions/terraform-autoscale-all-in-one.git .
+-	git clone https://github.com/Kenot-Solutions/terraform-autoscale-all-in-one.git .
 
 --  happy usage 
-	terraform init 
-	terraform plan
+-	terraform init 
+-	terraform plan
 -- do not forget to destory it 
-        terraform destory 
+-   terraform destory 
 
 
 Create Release 1.1.0 
