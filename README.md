@@ -26,7 +26,9 @@ This project create AWS auto scale with ubuntu image and configure nginx on it.
 --  happy usage 
 -	terraform init 
 -	terraform plan
--- do not forget to destory it 
+-   terraform apply 
+
+#### do not forget to destory it 
 -   terraform destory 
 
 
